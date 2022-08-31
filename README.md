@@ -51,6 +51,10 @@ Pay more attention
     3. It is “outTradeNo”,not “TradeNo”, Each request can only be used once, change new one to next request
      
   <br>
+  
+  #json Sample
+  
+  <br>
  {
 "subject" : "Roha Digital Systems",
 "totalAmount" : "50",
