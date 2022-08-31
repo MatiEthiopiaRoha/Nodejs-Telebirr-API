@@ -4,7 +4,7 @@
 
  <br>
  
- npm i
+ npm install
  
  nodemon
  
@@ -50,3 +50,19 @@ Pay more attention
      <br>
     3. It is “outTradeNo”,not “TradeNo”, Each request can only be used once, change new one to next request
      <br>
+     
+     <h3>Json Sample</h3>
+     <br>
+     {
+"subject" : "Roha Digital Systems",
+"totalAmount" : "50",
+"shortCode" : "220183",
+"notifyUrl" : "http://127.0.0.1:8100/telebirr",
+"returnUrl" : "http://127.0.0.1:8100/telebirr",
+"receiveName" : "Mati Ethiopia",
+"timeoutExpress" : "30"
+}
+     
+![Telebirr](https://github.com/MatiEthiopiaRoha/Nodejs-Telebirr-API/blob/main/img/Screenshot%20at%202022-08-31%2010-52-58.png)
+![Telebirr](https://github.com/MatiEthiopiaRoha/Nodejs-Telebirr-API/blob/main/img/Screenshot%20at%202022-08-31%2010-55-09.png)
+![Telebirr](https://github.com/MatiEthiopiaRoha/Nodejs-Telebirr-API/blob/main/img/Screenshot%20at%202022-08-31%2010-56-31.png)
