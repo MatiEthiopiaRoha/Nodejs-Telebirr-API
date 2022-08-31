@@ -1,6 +1,14 @@
 # Nodejs-Telebirr-API
 
-#Install Guide
+<h3>Install Guide </h3>
+
+ <br>
+ 
+ npm i
+ 
+ nodemon
+ 
+  <br>
 
 Quick start
 The precondition
@@ -18,7 +26,9 @@ steps:
      <br>
     5. Perform RSA2048 encryption on ussdjson to obtain the “ussd” parameter with public key.
      <br>
-    6. Assemble the final request message, for example  {"appid":"xxxxxxxx","sign":"Signature string","ussd":"Encryption string"}
+    6. Assemble the final request message, for example 
+     <br>
+    {"appid":"xxxxxxxx","sign":"Signature string","ussd":"Encryption string"}
      <br>
     7.The result message sent by the app is encrypted. The customer needs to decrypt the data first and obtain the following JSON format
      <br>
@@ -29,7 +39,7 @@ steps:
 }}
 
  <br>
-    7. Request http://196.188.120.3:11443/service-openup/toTradeWebPay with “post” method.
+    8. Request http://196.188.120.3:11443/service-openup/toTradeWebPay with “post” method.
      <br>
     
 Pay more attention
