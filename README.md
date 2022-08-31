@@ -8,6 +8,7 @@ Apply to Ethiopia Telecom for AppID, AppKey, PublicKey.
 
 steps:
     1. Generate StringA according to the rules in Section 1.7.1 of the Interface Document.
+    <br>
     2. Perform SHA-256 on stringA to get stringB.
     3. Capitalize all the letters in StringB and get the final signature "sign".
     4. Convert all parameters into JSON strings to obtain the character string ussdjson.
